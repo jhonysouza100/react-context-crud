@@ -8,7 +8,7 @@ function Tasks() {
 
    
   return (
-    <div className="flex gap2 m-4">
+    <div>
       <h1>Tasks Page</h1>
       <TaskCard tasks={tasks} />
     </div>
