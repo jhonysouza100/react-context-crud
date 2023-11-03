@@ -1,10 +1,3 @@
-function Edit({params}) {
-  
-  return (
-    <div>
-      Edit Page {params.id}
-    </div>
-  );
-}
+import NewFormPage from '@/app/new/page'
 
-export default Edit;
+export default NewFormPage;

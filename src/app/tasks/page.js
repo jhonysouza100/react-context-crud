@@ -5,7 +5,6 @@ import { useMyContext } from "@/context";
 function Tasks() {
 
   const { tasks } = useMyContext() // or useAppContext
-
    
   return (
     <div>

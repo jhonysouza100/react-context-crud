@@ -1,6 +1,7 @@
 import { ContextWrapper } from "@/context";
 import "./globals.css";
 import AppContainer from "@/components/AppContainer";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "React Context API",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <NavBar />
         <AppContainer>
           <ContextWrapper>{children}</ContextWrapper>
         </AppContainer>
